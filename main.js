@@ -41,7 +41,13 @@ for (let i = 0; i<numbers.length; i++){
 console.log('### Challenge #4');
 
 // Console out the sum of all the numbers.
-
+i = 0
+let total = 0
+while( i < numbers.length){
+  total = total + numbers[i]
+  i = i + 1;
+}
+console.log(total)
 
 
 console.log('### Challenge #5');
@@ -49,7 +55,7 @@ console.log('### Challenge #5');
 // Console out each number individually, but only if it's an even number.
 
 for (let i = 0; i < numbers.length; i++){
-  if(i % 2 === 0){
+  if(numbers[i] % 2 === 0){
     console.log(numbers[i])
   }
 }
