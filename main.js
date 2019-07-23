@@ -17,6 +17,7 @@ console.log('### Challenge #1');
 
 // Console out each number in the `numbers` array, individually.
 console.log(numbers)
+
 for (let i = 0; i < numbers.length; i++){
   console.log(numbers[i])
 }
@@ -24,7 +25,9 @@ for (let i = 0; i < numbers.length; i++){
 console.log('### Challenge #2');
 
 // Now do the same thing, but backwards.
-
+for (let i = numbers.length; i >= 0; i--){
+  console.log(numbers[i])
+}
 
 console.log('### Challenge #3');
 
