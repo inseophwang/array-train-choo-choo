@@ -33,6 +33,10 @@ console.log('### Challenge #3');
 
 // Console out each number plus 19, individually.
 
+for (let i = 0; i<numbers.length; i++){
+
+  console.log(numbers[i] + 19)
+}
 
 console.log('### Challenge #4');
 
