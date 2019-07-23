@@ -16,7 +16,10 @@ const numbers = [
 console.log('### Challenge #1');
 
 // Console out each number in the `numbers` array, individually.
-
+console.log(numbers)
+for (let i = 0; i < numbers.length; i++){
+  console.log(numbers[i])
+}
 
 console.log('### Challenge #2');
 
